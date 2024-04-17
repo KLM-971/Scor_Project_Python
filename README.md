@@ -29,8 +29,9 @@ Scor_Project/
 ├── src/
 │   ├── __init__.py
 │   ├── data_import.py
-│   ├── data_transformation.py
-│   └── main.py
+│   └── data_transformation.py
+│
+├── main.py
 │
 └── Python_project_TEST.pdf
 ```
@@ -47,7 +48,8 @@ This project adheres to a modular structure commonly used in data science workfl
   - `2-Data_preprocessing.ipynb` describes the data cleaning and transformation process.
   - `3-Data_analysis.ipynb` is dedicated to in-depth analysis and visualization.
 
-- **`src/` Directory**: Houses all source code, including scripts for data import (`data_import.py`), data transformation (`data_transformation.py`), and the main processing script (`main.py`). This separation fosters code reusability and organization.
+- **`src/` Directory**: Houses all source code, including scripts for data import (`data_import.py`), data transformation (`data_transformation.py`). This separation fosters code reusability and organization.
+- **`main.py`**: Located at the root of the project, this script orchestrates the initial data processing workflow and is the entry point to the codebase.
 
 - **`Python_project_TEST.pdf`**: Provides comprehensive project instructions and documentation.
 
@@ -56,7 +58,7 @@ This structured approach ensures the repository is navigable and understandable,
 ## Getting Started
 
 1. Clone the repository to your local machine.
-2. Execute the `main.py` script in the `src/` directory to begin preprocessing the data.
+2. Execute the `main.py` script at the root of the project directory to begin preprocessing the data.
 3. Open the `3-Data_analysis.ipynb` notebook within the `notebooks/` directory to proceed with the analysis.
 
 ## Analysis and Insights
