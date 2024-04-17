@@ -12,7 +12,7 @@ The emissions data used in this project is sourced from [ADEME](https://www.data
 ## Repository Structure
 
 ```plaintext
-SCOR/
+Scor_Project/
 │
 ├── data/
 │   ├── processed/
